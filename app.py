@@ -10,7 +10,7 @@ app = Flask(__name__)
 # MongoDB connection
 MONGODB_USERNAME = os.getenv('MONGODB_USERNAME')
 MONGODB_PASSWORD = os.getenv('MONGODB_PASSWORD')
-MONGODB_URI = f"mongodb+srv://{MONGODB_USERNAME}:{MONGODB_PASSWORD}@cluster0.jtnz2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URI = f"mongodb+srv://c0917813:wtar4F6O9iuSjdY3@cluster0.jtnz2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 client = MongoClient(MONGODB_URI)
 db = client.shop_db
