@@ -1,0 +1,6 @@
+Flask
+pymongo
+python-dotenv
+pytest
+Flask-Testing
+pytest-dotenv
